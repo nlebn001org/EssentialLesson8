@@ -2,6 +2,11 @@
 
 namespace EssentialLesson8Task1
 {
+
+    //    Задание
+    //Используя Visual Studio, создайте проект по шаблону Console Application.
+    //Реализуйте программу, которая будет принимать от пользователя дату его рождения и выводить количество дней до его следующего дня рождения.
+
     class Program
     {
         static void Main(string[] args)
@@ -21,7 +26,7 @@ namespace EssentialLesson8Task1
             int day;
             string birthdayStr;
 
-            while(true)
+            while (true)
             {
                 Console.WriteLine("Type a year of your birth.");
 
@@ -104,7 +109,7 @@ namespace EssentialLesson8Task1
                 else
                 {
                     Console.WriteLine("Date is not validated, try again.");
-                    
+
                 }
                 Console.ReadKey();
                 Console.Clear();
