@@ -11,7 +11,6 @@ namespace EssentialLesson8Task1
     {
         static void Main(string[] args)
         {
-
             DateTime timeNow = DateTime.Now;
             DateTime birthDay = new DateTime();
             DateTime nextBirthDay;

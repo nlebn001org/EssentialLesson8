@@ -47,11 +47,6 @@ namespace EssentialLesson8Task2
 
                 }
             }
-
-
-
-
-
         }
     }
 }
